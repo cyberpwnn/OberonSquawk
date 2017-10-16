@@ -1,0 +1,132 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -225,
+            "posY" : -90,
+            "width" : 141,
+            "height" : 141,
+            "alignment" : "top_center"
+        },
+		
+		"black":
+        {
+            "image" : "custommainmenu:textures/gui/bg_menu.png",
+            "posX" : 35,
+            "posY" : -80,
+            "width" : 100,
+            "height" : 1500,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "play":
+        {
+            "text" : "Play Oberon",
+            "posX" : -195,
+            "posY" : 5,
+            "width" : 80,
+            "height" : 20,
+			"pressSound": "custommainmenu:textures/gui/click.ogg",
+			"hoverSound": "custommainmenu:textures/gui/hover.ogg",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture": "custommainmenu:textures/gui/btn.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "71.63.34.59"
+            }
+        },
+		
+		"development":
+        {
+            "text" : "PTR Local",
+            "posX" : -195,
+            "posY" : 25,
+            "width" : 80,
+            "height" : 20,
+			"pressSound": "custommainmenu:textures/gui/click.ogg",
+			"hoverSound": "custommainmenu:textures/gui/hover.ogg",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture": "custommainmenu:textures/gui/btn.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Settings",
+            "posX" : -160,
+            "posY" : 160,
+            "width" : 50,
+            "height" : 20,
+			"pressSound": "custommainmenu:textures/gui/click.ogg",
+			"hoverSound": "custommainmenu:textures/gui/hover.ogg",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture": "custommainmenu:textures/gui/btn.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit",
+            "posX" : -205,
+            "posY" : 160,
+            "width" : 40,
+            "height" : 20,
+			"pressSound": "custommainmenu:textures/gui/click.ogg",
+			"hoverSound": "custommainmenu:textures/gui/hover.ogg",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture": "custommainmenu:textures/gui/btn.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 218,
+            "posY" : 170,
+            "width" : 20,
+            "height" : 20,
+			"pressSound": "custommainmenu:textures/gui/click.ogg",
+			"hoverSound": "custommainmenu:textures/gui/hover.ogg",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        
+    },
+    
+    "other":
+    {
+		"background":
+		{
+            "image" : "custommainmenu:textures/gui/bg.png",
+			"mode" : "stretch"
+		}
+    }
+}

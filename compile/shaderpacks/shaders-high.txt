@@ -1,0 +1,25 @@
+#Sat Sep 30 17:20:48 EDT 2017
+shadowDistance=140.0f
+vlRenderDistance=40.0
+airDensity=1.6
+fixUndergroundShadows=true
+blurFactor=1.2
+contrast=1.2
+shadowMapResolution=1024
+saturation=0.6
+anamorphicLens=true
+distanceBlur=true
+useMoonPhases=true
+vlRaysStrength=1.0
+shakingHand=false
+chromaticAberration=true
+dynamicWeather=true
+vignette=true
+motionblurAmount=2.0
+shadowMapBias=0.85
+dirtyLens=true
+shadowSamples=28
+windSpeed=0.2
+motionblur=true
+YCoCg_Compression=true
+exposure=2.0

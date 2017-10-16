@@ -1,0 +1,62 @@
+[
+  {
+    "resourceLocation": "betterloadingscreen:textures/splash.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 240
+    },
+	"colour": "FFFFFF",
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 10,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 364,
+      "height": 10
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_PERCENTAGE",
+    "texture": {
+      "x": 0,
+      "y": 15,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 364,
+      "height": 10
+    },
+    "comment": "None"
+  },
+  {
+    "type": "CLEAR_COLOUR",
+    "colour": "191919",
+    "comment": ""
+  }
+]

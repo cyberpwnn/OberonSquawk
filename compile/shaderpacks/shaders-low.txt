@@ -1,0 +1,16 @@
+#Sat Sep 30 01:22:15 EDT 2017
+dynamicWeather=true
+bloom=false
+windyTerrain=false
+YCoCg_Compression=true
+shadowDistance=80.0f
+useMoonPhases=true
+HQFocus=false
+fixUndergroundShadows=true
+rainPuddles=false
+shadowMapResolution=512
+volumetricLight=false
+shakingHand=false
+softShadows=false
+reflections=false
+fogBlur=false
